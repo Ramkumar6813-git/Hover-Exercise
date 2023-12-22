@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+.bg {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/455884/cat.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.div {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  opacity: 1;
+}
+.opacity-value {
+  opacity: 0;
+}
